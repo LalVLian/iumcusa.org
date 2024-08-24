@@ -1,0 +1,18 @@
+body {
+  font-family: "Cormorant", serif;
+}
+
+.offcanvas-header {
+  background-color: #ff0000;
+  color: white;
+}
+#offcanvasScrollingLabel {
+  font-weight: bolder;
+  text-align: left;
+}
+
+.offcanvas-body {
+  text-align: left;
+  font-weight: bolder;
+  font-size: x-large;
+}
