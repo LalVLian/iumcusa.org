@@ -23,3 +23,18 @@ body {
 .container img {
   padding: 3px;
 }
+
+.footer-container {
+  background-color: black;
+}
+
+.footer-section a{
+  color: white;
+  text-decoration: none;
+
+}
+
+.footer-section {
+  background-color: rgb(230, 27, 27);
+  color: #e9ecef;
+}
