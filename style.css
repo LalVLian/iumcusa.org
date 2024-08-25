@@ -6,7 +6,7 @@ body {
   background-color: #ff0000;
   color: white;
 }
-#offcanvasScrollingLabel {
+.offcanvas-title {
   font-weight: bolder;
   text-align: left;
 }
