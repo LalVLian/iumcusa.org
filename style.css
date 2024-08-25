@@ -28,13 +28,24 @@ body {
   background-color: black;
 }
 
-.footer-section a{
+.footer-section a {
   color: white;
   text-decoration: none;
-
 }
 
 .footer-section {
   background-color: rgb(230, 27, 27);
   color: #e9ecef;
+}
+
+.map iframe {
+  box-shadow: 0 4px 0 0 #ece9101f;
+  border-radius: 5px;
+}
+
+.footer-icon-fb:hover {
+  width: 38px;
+}
+.footer-icon-yt:hover {
+  width: 35px;
 }
