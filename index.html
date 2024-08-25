@@ -20,6 +20,7 @@
     <title>IUMCUSA</title>
   </head>
   <body>
+    <div class="container navbar-container">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html"> IUMC</a>
@@ -71,194 +72,38 @@
         </div>
       </div>
     </nav>
-    <!-- Navbar End Here -->
-    <main>
-      <div class="px-4 py-5 my-5 text-center">
-        <img
-          class="d-block mx-auto mb-4"
-          src="./imges/iumu-png-01.png"
-          alt=""
-          height="150"
-        />
-        <h1 class="display-5 fw-bold text-body-emphasis">
-          Immanuel United Methodist Church
-        </h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">
-            "Go into all the world and preach the gospel to all creation.""
-          </p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button
-              class="btn btn-primary btn-lg"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasScrolling"
-              aria-controls="offcanvasScrolling"
-            >
-              Join Us for Service
-            </button>
+  </div>
+    <!-- Navbar End Here / Hero Section Start-->
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-12 col-sm-8 col-lg-6 align-items-center">
+          <img src="./imges/iumu-png-01.png" class="d-block mx-lg-auto img-fluid" alt="church logo" width="300" height="200" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Immanuel United Methodist Church</h1>
+          <p class="lead">"Go into all the world and preach the gospel to all creation."</p>
+         <!-- div button popup start here -->
+         <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Join Us Services</button>
 
-            <!-- popup offcanvas start here -->
-            <div
-              class="z-3 offcanvas offcanvas-start"
-              data-bs-scroll="true"
-              data-bs-backdrop="false"
-              tabindex="0"
-              id="offcanvasScrolling"
-              aria-labelledby="offcanvasScrollingLabel"
-            >
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
-                  Experience Community, Faith, and Fellowship.
-                </h5>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="offcanvas"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="offcanvas-body">
-                <h5>Service Times:</h5>
-                <p>Sunday Worship: 1:30PM - 3:30PM</p>
-              </div>
-            </div>
-          </div>
+         <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+           <div class="offcanvas-header">
+             <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Experience Community, Faith, and Fellowship.</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           </div>
+           <div class="offcanvas-body">
+             <p>Service Times:
+              Sunday Worship: 1:30PM - 3:30PM
+              </p>
+           </div>
+         </div>
+          <!-- div button popup end here -->
         </div>
       </div>
-      <!-- popup offcanvas start here -->
-      <div class="border rounded-3 shadow-lg b-example-divider"></div>
+    </div>
 
-      <div class="px-4 pt-5 py-5 my-5 text-center  border-bottom">
-        <h1 class="display-4 fw-bold text-body-emphasis">Who We Are</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">
-            We are disciples of Christ, empowered by His resurrection. We gather
-            to share the Good News, embodying love and faith, inspiring hope,
-            and serving others as witness of His transformative grace.
-          </p>
-          <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
-              Primary button
-            </button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-              Secondary
-            </button>
-          </div>
-        </div> -->
-        <!-- <div class="overflow-hidden" style="max-height: 30vh">
-          <div class="container px-5">
-            <img
-              src="./imges/who-we-are.jpg"
-              class="img-fluid border rounded-3 shadow-lg mb-6"
-              alt="church member"
-              width="700"
-              height="600"
-              loading="lazy"
-            />
-          </div>
-        </div> -->
-      </div>
+<!-- hero section end here -->
 
-      <div class="border rounded-3 shadow-lg b-example-divider"></div>
 
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-12 col-sm-12 col-lg-6">
-            <img
-              src="./imges/church-group.jpg"
-              class="rounded-3 d-block mx-lg-auto img-fluid"
-              alt="church group"
-              width="700"
-              height="500"
-              loading="lazy"
-             
-           
-            />
-          </div>
-          <div class="col-lg-6 webelieve">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 ">
-              What We Believe
-            </h1>
-            <p class="lead">
-             We believe in the Trinity: one God in three persons- Father, Son, Holy Spirit. Each co-equal and co-eternal, united essence, purpose, and love, guiding us in faith and worship.
-            </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-                Learn More
-              </button>
-           
-            </div>
-          </div>
-        </div>
-      </div>
-
-    
-      <div class="b-example-divider"></div>
-
-      <div class="container  my-5">
-        <div
-          class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
-        >
-          <div class="col-lg-12 p-3 p-lg-5 pt-lg-3 ">
-            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">
-              Fuel Our Mission
-            </h1>
-            <p class="lead">
-              Join us in making a difference! Your generosity helps support our mission, uplifting our community and spreading love. Every contribution, big or small, empowers us to serve and transform lives. Thank you!
-            </p>
-            <div
-              class="d-grid gap-2 d-md-flex justify-content-md-center mb-4 mb-lg-3"
-            >
-              <button
-                type="button"
-                class="align-items-center btn btn-primary btn-lg px-4 me-md-2 fw-bold"
-              >
-                Donate
-              </button>
-            
-            </div>
-          </div>
-          <!-- <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-            <img
-              class="rounded-lg-3"
-              src="bootstrap-docs.png"
-              alt=""
-              width="720"
-            />
-          </div> -->
-        </div>
-      </div>
-
-      <div class="b-example-divider"></div>
-
-      <div class="bg-dark text-secondary px-4 py-5 text-center">
-        <div class="py-5">
-          <h1 class="display-5 fw-bold text-white">Dark color hero</h1>
-          <div class="col-lg-6 mx-auto">
-            <p class="fs-5 mb-4">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
-            </p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button
-                type="button"
-                class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
-              >
-                Custom button
-              </button>
-              <button type="button" class="btn btn-outline-light btn-lg px-4">
-                Secondary
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="b-example-divider mb-0"></div>
-    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
