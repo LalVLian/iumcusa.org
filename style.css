@@ -17,3 +17,9 @@ body {
   font-size: x-large;
 }
 
+.vision-container {
+  background-color: #e9ecef;
+}
+.container img {
+  padding: 3px;
+}
