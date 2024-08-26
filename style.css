@@ -49,3 +49,51 @@ body {
 .footer-icon-yt:hover {
   width: 35px;
 }
+
+.pastor-section {
+  background-color: #e9ecef;
+  text-align: center;
+}
+
+.about-pastor-section {
+  text-align: center;
+  background-color: #e9ecef;
+}
+
+.about-pastor-section img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 200px;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.211);
+  border-bottom: 2px black;
+}
+.pastor-section img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 200px;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.211);
+  border-bottom: 2px black;
+}
+
+.church-leaders img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 200px;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.211);
+  border-bottom: 2px black;
+}
+
+.church-leaders {
+  background-color: #e9ecef;
+  text-align: center;
+}
+.deacon-board {
+  font-weight: bolder;
+  border-bottom: 1px solid black;
+}
