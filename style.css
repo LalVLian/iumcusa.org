@@ -97,3 +97,14 @@ body {
   font-weight: bolder;
   border-bottom: 1px solid black;
 }
+.form-right,
+.form-text {
+  background-color: black;
+  color: white;
+}
+
+.termsandprivacy {
+  color: rgb(230, 27, 27);
+  text-decoration: underline;
+  font-style: italic;
+}
