@@ -236,17 +236,17 @@
     <label for="phoneNumber" class="form-label">Phone Number</label>
     <input type="text" class="form-control" name="phone" id="phoneNumber" required>
   </div>
-  <div class="mb-3 col">
+  <div class="mb-3 col-12">
     <label for="comments" class="form-label">Comments, question?</label>
-    <input type="text" class="form-control" name="comments, questions" id="comments" required>
+    <textarea type="text" class="form-control" name="comments, questions" id="comments" required></textarea>
   </div>
     <div class="mb-3 form-check">
       <input type="checkbox" class="form-check-input" id="checkbox1">
-      <label class="form-check-label" for="checkbox1">I read and agree to <span class="termsandprivacy">privacy policy</span>.</label>
+      <label class="form-check-label" name="privacy policy" for="checkbox1">I read and agree to <span class="termsandprivacy">privacy policy</span>.</label>
     </div>
     <div class="mb-3 form-check">
         <input type="checkbox" class="form-check-input" id="checkbox2">
-        <label class="form-check-label" for="checkbox2">I read and agree to <span class="termsandprivacy">terms and conditions</span>.</label>
+        <label class="form-check-label" name="terms and conditions" for="checkbox2">I read and agree to <span class="termsandprivacy">terms and conditions</span>.</label>
       </div>
     <button type="submit" class="btn btn-primary btn-lg px-4 gap-3">Submit</button>
   </form>
