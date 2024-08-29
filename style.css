@@ -20,9 +20,9 @@ body {
 .vision-container {
   background-color: #e9ecef;
 }
-.container img {
+/* .container img {
   padding: 3px;
-}
+} */
 
 .footer-container {
   background-color: black;
@@ -106,4 +106,13 @@ body {
   color: rgb(230, 27, 27);
   text-decoration: underline;
   font-style: italic;
+}
+
+.contact-icon-section {
+  background-color: #e9ecef;
+}
+
+.form-left img {
+  object-fit: cover;
+  object-position: center;
 }
