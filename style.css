@@ -115,4 +115,6 @@ body {
 .form-left img {
   object-fit: cover;
   object-position: center;
+
+  padding-left: 0 !important;
 }
