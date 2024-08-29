@@ -118,3 +118,14 @@ body {
 
   padding-left: 0 !important;
 }
+
+.photo-collage img {
+  object-fit: cover;
+  justify-content: center;
+  width: 100%;
+}
+
+.photo-six {
+  background-color: #ff0000;
+  color: white;
+}
