@@ -151,7 +151,8 @@ body {
   align-items: center; */
   color: white;
   font-size: x-large;
-  border-radius: 30px;
+  padding-top: 90px !important;
+  padding-bottom: 70px !important;
 }
 
 .policy-paragrap {
