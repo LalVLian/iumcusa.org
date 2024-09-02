@@ -136,3 +136,22 @@ body {
 .gallery-3 {
   background-color: #530ead;
 }
+
+.about-church-background {
+  background-image: url(imges/church-sideview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+
+.church-background-text {
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: x-large;
+  border-radius: 30px;
+}
